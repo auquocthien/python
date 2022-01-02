@@ -60,54 +60,6 @@ class Vendor1:
         elif self.__x == 1:
             print("D:{}, bv:{}, pi:{}, O:{}, H:{}, U:{}".format(self.__D, self.__bv, self.__pi, self.__O, self.__H, self.__U))
 
-    def getD(self):
-        return self.__D
-
-    def getbv(self):
-        return self.__bv
-
-    def getpi(self):
-        return self.__pi
-
-    def geta(self):
-        return self.__a
-
-    def getH(self):
-        return self.__H
-
-    def getO(self):
-        return self.__O
-
-    def getU(self):
-        return self.__U
-
-    def getx(self):
-        return self.__x
-
-    def setpr(self, pra):
-        self.__pr.copy(pra)
-
-    def setD(self, D):
-        self.__D = D
-
-    def setbv(self, bv):
-        self.__bv = bv
-
-    def setpi(self, pi):
-        self.__pi = pi
-
-    def seta(self, a):
-        self.__a = a
-
-    def setO(self, O):
-        self.__O = O
-
-    def setH(self, H):
-        self.__H = H
-
-    def setx(self, x):
-        self.__x = x
-
     @staticmethod
     def ti(T, i):
         return T/i

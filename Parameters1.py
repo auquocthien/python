@@ -49,18 +49,3 @@ class Parameters1:
 
     def getCm(self):
         return self.__Cm
-
-    def setA(self, A):
-        self.__A = A
-
-    def setCps(self, Cps):
-        self.__Cps = Cps
-
-    def setCpm(self, Cpm):
-        self.__Cpm = Cpm
-
-    def setCs(self, Cs):
-        self.__Cs = Cs
-
-    def setCm(self, Cm):
-        self.__Cm = Cm
